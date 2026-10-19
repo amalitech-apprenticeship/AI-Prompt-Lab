@@ -1,11 +1,10 @@
 import express from "express";
 
 export function calculateCartTotal(subtotal, discountPercent) {
-  if (discountPercent === 100) {
-    throw new Error("ZeroDivisionError: division by zero");
+  if (discountPercent >= 100) {
+    return 0;
   }
 
-  const effectiveRate = discountPercent / (100 - discountPercent);
   const discountAmount = subtotal * discountPercent / 100;
   return subtotal - discountAmount;
 }
