@@ -20,8 +20,6 @@ N8N setup to take form submission and create an issue based on bugs to the githu
 
 **Workflow Running**
 
-<img width="1197" height="566" alt="image" src="https://github.com/user-attachments/assets/5f368002-ad5f-44b5-8eac-c139db8c4fb3" />
-
 
 <img width="1201" height="698" alt="image" src="https://github.com/user-attachments/assets/9b5fe787-59d0-4d25-9a89-9ef6c9db99b1" />
 *Response goes through Gemini and a structured output parser*
